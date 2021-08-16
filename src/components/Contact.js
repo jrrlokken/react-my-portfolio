@@ -20,7 +20,12 @@ export default function Contact() {
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode({ "form-name": "contact", name, email, message }),
     })
-      .then(() => alert("Message sent."))
+      .then(() => {
+        alert("Message sent.");
+        setName("");
+        setEmail("");
+        setMessage("");
+      })
       .catch((error) => alert(error));
   }
 
@@ -36,7 +41,7 @@ export default function Contact() {
             frameBorder={0}
             marginHeight={0}
             marginWidth={0}
-            style={{ filter: "opacity(0.7)" }}
+            style={{ filter: "opacity(0.9)" }}
             src="https://www.google.com/maps/embed/v1/place?q=1624+4th+st+se+bemidji,+mn&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
           />
           <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
@@ -73,8 +78,7 @@ export default function Contact() {
             Hire Me
           </h2>
           <p className="leading-relaxed mb-5">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
-            suscipit officia aspernatur veritatis. Asperiores, aliquid?
+            I would love to work with your development team!
           </p>
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">
@@ -85,6 +89,7 @@ export default function Contact() {
               id="name"
               name="name"
               onChange={(e) => setName(e.target.value)}
+              value={name}
               className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
             />
           </div>
@@ -97,6 +102,7 @@ export default function Contact() {
               id="email"
               name="email"
               onChange={(e) => setEmail(e.target.value)}
+              value={email}
               className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
             />
           </div>
@@ -111,6 +117,7 @@ export default function Contact() {
               id="message"
               name="message"
               onChange={(e) => setMessage(e.target.value)}
+              value={message}
               className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
             />
           </div>
