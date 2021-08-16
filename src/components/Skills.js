@@ -13,7 +13,8 @@ export default function Skills() {
           </h1>
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
             These are the tools that I've spent the most time working with. I
-            have used other tools and frameworks, but these are my favorites.
+            have used other tools and frameworks, but these are my favorites
+            thus far.
           </p>
         </div>
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
