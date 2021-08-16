@@ -1,35 +1,18 @@
 export const projects = [
   {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
+    title: "Issue Tracking System",
+    subtitle: "Python and Flask",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
-    link: "https://reactbootcamp.com",
+      "My first Python project.  Frontend, REST API, PostgreSQL database, WTForms, testing with Selenium and unittest.",
+    image: "./project01.gif",
+    link: "https://flask-its.herokuapp.com",
   },
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-2.gif",
-    link: "https://reactbootcamp.com",
-  },
-  {
-    title: "DevChat",
-    subtitle: "React and Firebase",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
-    link: "https://reactbootcamp.com",
-  },
-  {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
-    link: "https://reactbootcamp.com",
+    title: "Mask Up!",
+    subtitle: "KeystoneJS CMS and NextJS",
+    description: "A facemask marketplace built on KeystoneJS with NextJS.",
+    image: "./project02.gif",
+    link: "https://maskup.joshualokken.tech",
   },
 ];
 
@@ -55,6 +38,11 @@ export const skills = [
   "React",
   "Next.js",
   "Node",
+  "Python",
+  "Flask",
   "GraphQL",
+  "MongoDB",
+  "PostgreSQL",
+  "Chakra-UI",
   "Material UI",
 ];
