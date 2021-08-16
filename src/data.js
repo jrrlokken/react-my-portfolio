@@ -9,8 +9,9 @@ export const projects = [
   },
   {
     title: "Mask Up!",
-    subtitle: "KeystoneJS CMS and NextJS",
-    description: "A facemask marketplace built on KeystoneJS with NextJS.",
+    subtitle: "Keystone headless CMS and NextJS",
+    description:
+      "A facemask marketplace built on Keystone's headless CMS with NextJS.",
     image: "./project02.gif",
     link: "https://maskup.joshualokken.tech",
   },
