@@ -3,7 +3,7 @@ export const projects = [
     title: "Issue Tracking System",
     subtitle: "Python and Flask",
     description:
-      "My first Python project.  Frontend, REST API, PostgreSQL database, WTForms, testing with Selenium and unittest.",
+      "My first Python project.  Flask frontend, WTForms, REST API, PostgreSQL database, testing with Selenium and unittest.",
     image: "./project01.gif",
     link: "https://flask-its.herokuapp.com",
   },
