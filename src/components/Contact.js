@@ -15,7 +15,7 @@ export default function Contact() {
 
   function handleSubmit(event) {
     event.preventDefault();
-    fetch("/", {
+    fetch("#", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode({ "form-name": "contact", name, email, message }),
@@ -58,7 +58,10 @@ export default function Contact() {
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 EMAIL
               </h2>
-              <a className="text-indigo-400 leading-relaxed">
+              <a
+                href="mailto:joshualokken@pm.me"
+                className="text-indigo-400 leading-relaxed"
+              >
                 joshualokken@pm.me
               </a>
               <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
@@ -69,8 +72,8 @@ export default function Contact() {
           </div>
         </div>
         <form
-          netlify
           name="contact"
+          data-netlify="true"
           onSubmit={handleSubmit}
           className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"
         >
