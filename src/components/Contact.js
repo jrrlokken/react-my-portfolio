@@ -31,8 +31,8 @@ export default function Contact() {
 
   return (
     <section id="contact" className="relative">
-      <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
-        <div className="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+      <div className="container flex flex-wrap px-5 py-10 mx-auto sm:flex-nowrap">
+        <div className="relative flex items-end justify-start p-10 overflow-hidden bg-gray-900 rounded-lg lg:w-2/3 md:w-1/2 sm:mr-10">
           <iframe
             width="100%"
             height="100%"
@@ -44,9 +44,9 @@ export default function Contact() {
             style={{ filter: "opacity(0.9)" }}
             src="https://www.google.com/maps/embed/v1/place?q=1624+4th+st+se+bemidji,+mn&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
           />
-          <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
-            <div className="lg:w-1/2 px-6">
-              <h2 className="title-font font-semibold text-white tracking-widest text-xs">
+          <div className="relative flex flex-wrap py-6 bg-gray-900 rounded shadow-md">
+            <div className="px-6 lg:w-1/2">
+              <h2 className="text-xs font-semibold tracking-widest text-white title-font">
                 ADDRESS
               </h2>
               <p className="mt-1">
@@ -54,17 +54,17 @@ export default function Contact() {
                 Bemidji, MN 56601
               </p>
             </div>
-            <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
-              <h2 className="title-font font-semibold text-white tracking-widest text-xs">
+            <div className="px-6 mt-4 lg:w-1/2 lg:mt-0">
+              <h2 className="text-xs font-semibold tracking-widest text-white title-font">
                 EMAIL
               </h2>
               <a
                 href="mailto:joshualokken@pm.me"
-                className="text-indigo-400 leading-relaxed"
+                className="leading-relaxed text-indigo-400"
               >
                 joshualokken@pm.me
               </a>
-              <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
+              <h2 className="mt-4 text-xs font-semibold tracking-widest text-white title-font">
                 PHONE
               </h2>
               <p className="leading-relaxed">218-368-3712</p>
@@ -75,16 +75,16 @@ export default function Contact() {
           name="contact"
           data-netlify="true"
           onSubmit={handleSubmit}
-          className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"
+          className="flex flex-col w-full mt-8 lg:w-1/3 md:w-1/2 md:ml-auto md:py-8 md:mt-0"
         >
-          <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
+          <h2 className="mb-1 text-3xl font-medium text-white sm:text-4xl title-font">
             Hire Me
           </h2>
-          <p className="leading-relaxed mb-5">
+          <p className="mb-5 leading-relaxed">
             I would love to work with your development team!
           </p>
           <div className="relative mb-4">
-            <label htmlFor="name" className="leading-7 text-sm text-gray-400">
+            <label htmlFor="name" className="text-sm leading-7 text-gray-400">
               Name
             </label>
             <input
@@ -93,11 +93,11 @@ export default function Contact() {
               name="name"
               onChange={(e) => setName(e.target.value)}
               value={name}
-              className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              className="w-full px-3 py-1 text-base leading-8 text-gray-100 transition-colors duration-200 ease-in-out bg-gray-800 border border-gray-700 rounded outline-none focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900"
             />
           </div>
           <div className="relative mb-4">
-            <label htmlFor="email" className="leading-7 text-sm text-gray-400">
+            <label htmlFor="email" className="text-sm leading-7 text-gray-400">
               Email
             </label>
             <input
@@ -106,27 +106,27 @@ export default function Contact() {
               name="email"
               onChange={(e) => setEmail(e.target.value)}
               value={email}
-              className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              className="w-full px-3 py-1 text-base leading-8 text-gray-100 transition-colors duration-200 ease-in-out bg-gray-800 border border-gray-700 rounded outline-none focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900"
             />
           </div>
           <div className="relative mb-4">
             <label
               htmlFor="message"
-              className="leading-7 text-sm text-gray-400"
+              className="text-sm leading-7 text-gray-400"
             >
-              Name
+              Message
             </label>
             <textarea
               id="message"
               name="message"
               onChange={(e) => setMessage(e.target.value)}
               value={message}
-              className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              className="w-full px-3 py-1 text-base leading-8 text-gray-100 transition-colors duration-200 ease-in-out bg-gray-800 border border-gray-700 rounded outline-none focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900"
             />
           </div>
           <button
             type="submit"
-            className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+            className="px-6 py-2 text-lg text-white bg-indigo-500 border-0 rounded focus:outline-none hover:bg-indigo-600"
           >
             Submit
           </button>
