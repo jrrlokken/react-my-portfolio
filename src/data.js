@@ -15,6 +15,21 @@ export const projects = [
     image: "./project02.gif",
     link: "https://maskup.joshualokken.tech",
   },
+  {
+    title: "Tasklist",
+    subtitle: "React hooks and context API.",
+    description: "Todo app with React hooks and context API.",
+    image: "./project03.gif",
+    link: "https://tasklist.joshualokken.tech",
+  },
+  {
+    title: "PaletteSwatch",
+    subtitle: "React Color Palette Generator",
+    description:
+      "Color palette generator in React. Includes several standard palettes to start with. Implements drag and drop color tiles.",
+    image: "./project04.gif",
+    link: "https://paletteswatch.joshualokken.tech",
+  },
 ];
 
 export const testimonials = [
