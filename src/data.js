@@ -61,4 +61,5 @@ export const skills = [
   "PostgreSQL",
   "Chakra-UI",
   "Material UI",
+  "Bootstrap",
 ];
