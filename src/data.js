@@ -47,4 +47,10 @@ export const skills = [
   "Chakra-UI",
   "Material UI",
   "Bootstrap",
+  "Linux",
+  "LXD/LXC",
+  "Docker",
+  "Vercel",
+  "Heroku",
+  "Netlify",
 ];
