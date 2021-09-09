@@ -30,6 +30,13 @@ export const projects = [
     image: "./project04.gif",
     link: "https://paletteswatch.joshualokken.tech",
   },
+  {
+    title: "ME*N stack server",
+    subtitle: "Node server with Express authentication middleware",
+    description: "Node server with Express authentication middleware",
+    image: "./project05.png",
+    link: "https://github.com/jrrlokken/node-auth",
+  },
 ];
 
 export const testimonials = [];
