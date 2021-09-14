@@ -26,16 +26,23 @@ export const projects = [
     title: "PaletteSwatch",
     subtitle: "React Color Palette Generator",
     description:
-      "Color palette generator in React. Includes several standard palettes to start with. Implements drag and drop color tiles.",
+      "Color palette generator in React. Implements drag and drop color tiles.",
     image: "./project04.gif",
     link: "https://paletteswatch.joshualokken.tech",
   },
   {
     title: "ME*N stack server",
-    subtitle: "Node server with Express authentication middleware",
-    description: "Node server with Express authentication middleware",
+    subtitle: "Node and Express",
+    description: "Node server with Express authentication",
     image: "./project05.png",
     link: "https://github.com/jrrlokken/node-auth",
+  },
+  {
+    title: "My Old Portfolio",
+    subtitle: "HTML, CSS and jQuery",
+    description: "A first attempt at a handrolled portfolio",
+    image: "./project06.gif",
+    link: "https://old-portfolio.joshualokken.tech",
   },
 ];
 
