@@ -9,7 +9,7 @@ export default function About() {
             Hi, I'm Joshua.
           </h1>
           <h2 className="mb-4 text-2xl font-medium text-white title-font sm:text-3xl">
-            I love to build amazing apps.
+            I love to design and build software.
           </h2>
           <p className="mb-8 leading-relaxed">
             I have added software development to my skill set after being a
