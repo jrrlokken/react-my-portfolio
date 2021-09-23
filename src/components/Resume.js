@@ -2,28 +2,11 @@ import React, { useState } from "react";
 import ReactDOM from "react-dom";
 import { PDFViewer } from "react-view-pdf";
 
-import myResume from "./resume.pdf";
+import myResume from "../resume.pdf";
 
 export default function Resume() {
   const [shown, setShown] = useState(false);
   const resume = myResume;
-
-  // function onDocumentLoadSuccess({ numPages }) {
-  //   setNumPages(numPages);
-  //   setPageNumber(1);
-  // }
-
-  // function changePage(offset) {
-  //   setPageNumber((prevPageNumber) => prevPageNumber + offset);
-  // }
-
-  // function previousPage() {
-  //   changePage(-1);
-  // }
-
-  // function nextPage() {
-  //   changePage(1);
-  // }
 
   const modalBody = () => (
     <div
