@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@craco/craco": "^5.9.0",
+    "@craco/craco": "^6.3.0",
     "@heroicons/react": "^1.0.1",
     "precise-ui": "^2.1.0",
     "react": "^17.0.2",
