@@ -61,7 +61,7 @@ export default function Resume() {
     <div>
       <button
         style={{
-          backgroundColor: "#00449e",
+          backgroundColor: "rgba(59, 130, 246, 1)",
           border: "none",
           borderRadius: ".25rem",
           color: "#fff",
