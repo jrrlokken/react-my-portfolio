@@ -14,17 +14,11 @@ export default function Resume() {
         backgroundColor: "#fff",
         flexDirection: "column",
         overflow: "hidden",
-
-        /* Fixed position */
         left: 0,
         position: "fixed",
         top: 0,
-
-        /* Full window size */
         height: "100%",
         width: "100%",
-
-        /* Display on top of other elements */
         zIndex: 99,
       }}
     >
