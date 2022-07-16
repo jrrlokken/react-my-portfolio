@@ -20,13 +20,6 @@ export default function Navbar() {
           </a>
           <Resume />
         </nav>
-        <a
-          href="#contact"
-          className="inline-flex items-center px-3 py-1 mt-4 text-base bg-gray-800 border-0 rounded focus:outline-none hover:bg-blue-500 md:mt-0 hover:text-white"
-        >
-          Hire Me
-          <ArrowRightIcon className="w-4 h-4 ml-1" />
-        </a>
       </div>
     </header>
   );
