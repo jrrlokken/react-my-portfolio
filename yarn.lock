@@ -8963,7 +8963,7 @@ postcss@^8.1.0, postcss@^8.3.5:
     picocolors "^1.0.0"
     source-map-js "^1.0.2"
 
-precise-ui@^2.1.0:
+precise-ui@^2.1.15:
   version "2.1.15"
   resolved "https://registry.yarnpkg.com/precise-ui/-/precise-ui-2.1.15.tgz#5ecc7c58b53dafbde3b4e971849b1ec671deec36"
   integrity sha512-75fbnmtzSZOyaNmHRlgJrBnd2d6kXfYj86CNMRRUV1eu93fjM82kImEDu3f/9HjWz3YhDHoJFfajlacEEmAQYw==
@@ -9405,10 +9405,10 @@ react-scripts@^4.0.3:
   optionalDependencies:
     fsevents "^2.1.3"
 
-react-view-pdf@^0.1.3:
-  version "0.1.9"
-  resolved "https://registry.yarnpkg.com/react-view-pdf/-/react-view-pdf-0.1.9.tgz#a59d9133a48fbcd81315820f3233d0dd883ee0fd"
-  integrity sha512-Y6jsddWRTNAS2WEZ2a+J8QCwe2fh24MIqiUqG4YhoNk+GPbSWLXvfyE1UAYTawQOItuYep/RcEO0y5FNN3KnhQ==
+react-view-pdf@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/react-view-pdf/-/react-view-pdf-1.0.0.tgz#cbc920da17c6ea4e6922b57b035e934b2210b413"
+  integrity sha512-wNNpfAMTb49GJevdBntZnbeVhql1SGK2EGs8KYXYPTvw/Sq7tSJYRDoeKO1UtywmWX28bllUYTm/TGF2+DeHNg==
   dependencies:
     intersection-observer "^0.12.0"
     pdfjs-dist "^2.10.377"
