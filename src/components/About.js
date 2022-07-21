@@ -18,12 +18,6 @@ export default function About() {
           </p>
           <div className="flex justify-center">
             <a
-              href="#contact"
-              className="inline-flex px-6 py-2 text-lg text-white bg-blue-500 border-0 rounded focus:outline-none hover:bg-gray-700 hover:text-white"
-            >
-              Contact
-            </a>
-            <a
               href="#projects"
               className="inline-flex px-6 py-2 ml-4 text-lg text-gray-400 bg-gray-800 border-0 rounded focus:outline-none hover:bg-gray-700 hover:text-white"
             >
