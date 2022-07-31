@@ -22,26 +22,9 @@ export default function Resume() {
         zIndex: 99,
       }}
     >
-      <div
-        className="flex items-center h-20 p-1 bg-gray-700"
-        // style={{
-        //   backgroundColor: "#334155",
-        //   alignItems: "center",
-        //   color: "#fff",
-        //   display: "flex",
-        //   padding: ".5rem",
-        // }}
-      >
+      <div className="flex items-center h-20 p-1 bg-gray-700">
         <button
-          className="px-3 py-2 text-white bg-indigo-500 border-0 rounded cursor-pointer"
-          // style={{
-          //   backgroundColor: "#357edd",
-          //   border: "none",
-          //   borderRadius: "4px",
-          //   color: "#ffffff",
-          //   cursor: "pointer",
-          //   padding: "8px",
-          // }}
+          className="px-3 py-2 ml-8 text-white bg-indigo-500 border-0 rounded"
           onClick={() => setShown(false)}
         >
           Close

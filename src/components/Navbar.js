@@ -21,12 +21,12 @@ export default function Navbar() {
             </a>
           </div>
           <div>
-            <button
+            <a
               href="https://github.com/jrrlokken"
               className="mr-5 hover:text-white"
             >
               Github
-            </button>
+            </a>
           </div>
           <Resume />
         </nav>
