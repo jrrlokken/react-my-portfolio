@@ -4,7 +4,7 @@ import Resume from "./Resume";
 
 export default function Navbar() {
   return (
-    <header className="top-0 bg-gray-800 z-100 md:sticky">
+    <header className="top-0 z-50 bg-gray-800 md:sticky">
       <div className="container flex flex-col flex-wrap items-center p-5 mx-auto md:flex-row">
         <div className="mb-4 font-medium text-white title-font md:mb-0">
           <a href="#about" className="ml-3 text-2xl">
