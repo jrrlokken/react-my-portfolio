@@ -9,22 +9,10 @@ export default function Resume() {
   const resume = myResume;
 
   const modalBody = () => (
-    <div
-      style={{
-        backgroundColor: "#fff",
-        flexDirection: "column",
-        overflow: "hidden",
-        left: 0,
-        position: "fixed",
-        top: 0,
-        height: "100%",
-        width: "100%",
-        zIndex: 99,
-      }}
-    >
-      <div className="flex items-center h-20 p-1 bg-gray-700">
+    <div className="fixed top-0 left-0 z-50 flex-col w-full h-full overflow-hidden bg-white">
+      <div className="flex items-center h-20 p-1 bg-[#334155]">
         <button
-          className="px-3 py-2 ml-8 text-white bg-indigo-500 border-0 rounded"
+          className="px-4 py-2 ml-8 text-white bg-indigo-500 border-0 rounded"
           onClick={() => setShown(false)}
         >
           Close
