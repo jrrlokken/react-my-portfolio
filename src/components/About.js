@@ -17,13 +17,13 @@ export default function About() {
             specialist and bring a critical eye to the development space.
           </p>
           <div className="flex justify-center">
-            <button
+            <a
               href="#projects"
               className="inline-flex px-6 py-2 ml-4 text-lg text-white border-0 rounded cursor-pointer btn focus:outline-none"
               style={{ backgroundColor: "#6c63ff" }}
             >
               Projects
-            </button>
+            </a>
           </div>
         </div>
         <div className="w-5/6 lg:max-w-lg lg:w-full md:w-1/2">
