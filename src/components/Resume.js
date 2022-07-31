@@ -10,7 +10,7 @@ export default function Resume() {
 
   const modalBody = () => (
     <div className="fixed top-0 left-0 z-50 flex-col w-full h-full overflow-hidden bg-white">
-      <div className="flex items-center h-20 p-1 bg-[#334155]">
+      <div className="flex items-center h-20 p-1 bg-gray-800">
         <button
           className="px-4 py-2 ml-8 text-white bg-indigo-500 border-0 rounded"
           onClick={() => setShown(false)}
