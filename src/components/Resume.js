@@ -9,37 +9,10 @@ export default function Resume() {
   const resume = myResume;
 
   const modalBody = () => (
-    <div
-      style={{
-        backgroundColor: "#fff",
-        flexDirection: "column",
-        overflow: "hidden",
-        left: 0,
-        position: "fixed",
-        top: 0,
-        height: "100%",
-        width: "100%",
-        zIndex: 99,
-      }}
-    >
-      <div
-        style={{
-          alignItems: "center",
-          backgroundColor: "#000",
-          color: "#fff",
-          display: "flex",
-          padding: ".5rem",
-        }}
-      >
+    <div className="fixed top-0 left-0 z-50 flex-col w-full h-full overflow-hidden bg-white">
+      <div className="flex items-center h-20 p-1 bg-gray-800">
         <button
-          style={{
-            backgroundColor: "#357edd",
-            border: "none",
-            borderRadius: "4px",
-            color: "#ffffff",
-            cursor: "pointer",
-            padding: "8px",
-          }}
+          className="px-4 py-2 ml-8 text-white bg-indigo-500 border-0 rounded"
           onClick={() => setShown(false)}
         >
           Close
@@ -54,14 +27,7 @@ export default function Resume() {
   return (
     <div>
       <button
-        style={{
-          backgroundColor: "rgba(59, 130, 246, 1)",
-          border: "none",
-          borderRadius: ".25rem",
-          color: "#fff",
-          cursor: "pointer",
-          padding: ".5rem",
-        }}
+        className="px-3 py-2 text-white bg-indigo-500 border-0 rounded cursor-pointer"
         onClick={() => setShown(true)}
       >
         Resume

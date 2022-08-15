@@ -1,5 +1,6 @@
-import { CodeIcon } from "@heroicons/react/solid";
 import React from "react";
+import { CodeIcon } from "@heroicons/react/solid";
+
 import { projects } from "../data";
 
 export default function Projects() {
@@ -17,7 +18,7 @@ export default function Projects() {
             there.
           </p>
         </div>
-        <div className="flex flex-wrap -m-4">
+        <div className="flex flex-wrap m-4 ">
           {projects.map((project) => (
             <a
               href={project.link}
@@ -32,7 +33,7 @@ export default function Projects() {
                   className="absolute inset-0 object-cover object-center w-full h-full"
                   src={project.image}
                 />
-                <div className="relative z-10 w-full px-8 py-10 bg-gray-900 border-4 border-gray-800 opacity-0 hover:opacity-100">
+                <div className="relative z-0 w-full px-8 py-10 bg-gray-900 border-4 border-gray-800 opacity-0 hover:opacity-100">
                   <h1 className="mb-1 text-lg font-medium text-white title-font">
                     {project.title}
                   </h1>

@@ -19,7 +19,8 @@ export default function About() {
           <div className="flex justify-center">
             <a
               href="#projects"
-              className="inline-flex px-6 py-2 ml-4 text-lg text-gray-400 bg-gray-800 border-0 rounded focus:outline-none hover:bg-gray-700 hover:text-white"
+              className="inline-flex px-6 py-2 ml-4 text-lg text-white border-0 rounded cursor-pointer btn focus:outline-none"
+              style={{ backgroundColor: "#6c63ff" }}
             >
               Projects
             </a>
