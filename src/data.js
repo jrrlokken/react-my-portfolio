@@ -4,7 +4,7 @@ export const projects = [
     subtitle: "Node.js and Express, EJS, and MongoDB",
     description:
       "Server rendered family reunion nostalgia website. Includes live chat/commenting.",
-    image: "./lokkenreunion.gif",
+    image: "./lokkenreunion.webp",
     link: "https://lokken-reunion.herokuapp.com/",
     repo: "https://github.com/jrrlokken/reunion",
   },
@@ -13,7 +13,7 @@ export const projects = [
     subtitle: "Node.js CLI and React",
     description:
       "A CLI with React frontend for generating documentation, with live code editor and markdown editor.",
-    image: "./docucode.gif",
+    image: "./docucode.webp",
     link: "https://docucode.joshualokken.tech",
     repo: "https://github.com/jrrlokken/docucode",
   },
@@ -22,7 +22,7 @@ export const projects = [
     subtitle: "Keystone headless CMS and NextJS",
     description:
       "A facemask marketplace built on Keystone's headless CMS with NextJS.",
-    image: "./maskup.gif",
+    image: "./maskup.webp",
     link: "https://maskup.joshualokken.tech",
   },
   {
@@ -30,7 +30,7 @@ export const projects = [
     subtitle: "React Color Palette Generator",
     description:
       "Color palette generator in React. Implements drag and drop color tiles.",
-    image: "./paletteswatch.gif",
+    image: "./paletteswatch.webp",
     link: "https://paletteswatch.joshualokken.tech",
   },
   {
@@ -38,14 +38,14 @@ export const projects = [
     subtitle: "Python and Flask",
     description:
       "My first Python project.  Flask frontend, WTForms, REST API, PostgreSQL database, testing with Selenium and unittest.",
-    image: "./its.gif",
+    image: "./its.webp",
     link: "https://flask-its.herokuapp.com",
   },
   {
     title: "My Old Portfolio",
     subtitle: "HTML, CSS and jQuery",
     description: "A first attempt at a handrolled portfolio",
-    image: "./oldportfolio.gif",
+    image: "./oldportfolio.webp",
     link: "https://old-portfolio.joshualokken.tech",
   },
 ];
