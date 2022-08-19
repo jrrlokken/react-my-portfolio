@@ -4,4 +4,8 @@ module.exports = {
     extend: {},
   },
   plugins: [],
+  purge: {
+    enabled: true,
+    mode: 'all',
+  }
 };
