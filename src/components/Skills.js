@@ -16,6 +16,17 @@ export default function Skills() {
             have used other tools and frameworks, but these are my favorites
             thus far.
           </p>
+          <div
+            data-iframe-width='150'
+            data-iframe-height='270'
+            data-share-badge-id='12f4fc5f-2a65-4d0f-b9fd-b6b50e820e8d'
+            data-share-badge-host='https://www.credly.com'
+          ></div>
+          <script
+            type='text/javascript'
+            async
+            src='//cdn.credly.com/assets/utilities/embed.js'
+          ></script>
         </div>
         <div className='flex flex-wrap -mx-2 lg:w-4/5 sm:mx-auto sm:mb-2'>
           {skills.map((skill) => (
